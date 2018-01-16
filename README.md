@@ -1,7 +1,7 @@
 # Python_With_MariaDB
 This is a modifyed class project using Python 3 and a Sql DB (Maria DB).
 
-##To Create the database entet the commands below.
+## To Create the database entet the commands below.
 
 ### Creating the Table
 create database alertDB;
