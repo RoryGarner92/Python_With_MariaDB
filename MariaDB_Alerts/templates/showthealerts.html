@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Here are the alerts:</title>
+    </head>
+    <body>
+
+        <ul>
+            {% for a in the_data %}
+                <!-- <li>{{a.ts}}: {{a.blurter_id}} said: {{a.blurt_text}} -->
+                <li>{{a[1]}}: {{a[2]}} said: {{a[3]}}
+
+            {% endfor %}
+        </ul>
+    </body>
+</html>     
